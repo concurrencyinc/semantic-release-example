@@ -23,7 +23,7 @@ jobs:
 
       - uses: actions/setup-node@v4
 
-      - run: pnpm install --frozen-lockfile
+      - run: pnpm i --frozen-lockfile
 
       - name: Release
         env:
