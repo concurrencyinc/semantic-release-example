@@ -23,6 +23,8 @@ jobs:
 
       - uses: actions/setup-node@v4
 
+      - run: npm install -g pnpm
+
       - run: pnpm i --frozen-lockfile
 
       - name: Release
